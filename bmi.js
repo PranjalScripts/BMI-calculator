@@ -15,13 +15,13 @@ function calculateBMI() {
     var category = "";
   
     if (bmi < 18.5) {
-      category = "Lappu sa ladka hai";
+      category = "Under weight";
     } else if (bmi < 25) {
       category = "Normal weight";
     } else if (bmi < 30) {
       category = "Overweight";
     } else {
-      category = "MOTU";
+      category = " Extra Heavy Weight Do Exercise";
     }
   
     resultDiv.innerHTML = "Your BMI is " + bmi.toFixed(2) + " (" + category + ")";
